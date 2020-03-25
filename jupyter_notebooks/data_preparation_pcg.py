@@ -82,7 +82,7 @@ def convert_date(date_in_str):
     date_list = re.findall(r"\w+", date_in_str)
     month = date_list[0]
     dat = date_list[1]
-    year = '20' + date_list[2]
+    year = date_list[2]
     num_day = date(int(year),int(month),int(dat)).weekday()    
 
 
