@@ -34,6 +34,8 @@ Accurate occupancy detection of an office room from light, temperature, humidity
 
 1. Exploit the temporal information of the dataset preparing it for a univariate framework of analysis, i.e. select a feature and use it as your time series. You are welcome in using more than one reliable temporal split to have more time series of the same feature. You are welcome in creating more than a dataset using more than a feature and report the result on the feature you prefer or more than one. Analyze such datasets for finding motifs and/or anomalies and shaplets. Visualize and discuss them and their relationship with the class of the time series.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/piyushtada/data_mining_2020_project_occupancy_detection.git/master?filepath=https%3A%2F%2Fgithub.com%2Fpiyushtada%2Fdata_mining_2020_project_occupancy_detection%2Fblob%2Fmaster%2Fjupyter_notebooks%2F10_TimeSeriesgc_shapelet%2520discovery-2020-05-01.ipynb)
+
 2. On the dataset(s) created, compute clustering based on Euclidean/Manhattan and DTW distances and compare the results. To perform the clustering you can choose among different similarity methods, i.e., shape-based, feature-based, approximation-based, compression-based, etc.. Finally, analyze the clusters and the clustering and highlight similarities and differences.
 
 3. Apply forecasting methods on the dataset(s) created. Make sure to preprocess adequately the time series according to the method used (e.g., an exponential smoothing or an autoregression), indeed checking stationarity and reducing trends and seasonality or with the help of a statistically significant test;
